@@ -60,12 +60,26 @@ console.log(new_integers);
 
 // write your function here
 
-var s= [3];
-Boolean(s);
+function checkHonest(number) {
+
+    if (number < 0) {
+        return false;
+    }
+
+    else {
+        number = (number > 0);
+        return true;
+    }
+
+}
 
 // call your function here
 
-console.log(s);
+
+// insert negative or positive number inside parentheses
+console.log(checkHonest(0));
+
+// to Crezell: i couldnt get a way to include an array function to this part of the challenge but i made it in such a way that when any value is inserted in the brackets, positive or negative, it will return true or false respectively in the debug console. 0 is included as 'true'.
 
 
 // 4. Bonus Exercise 
